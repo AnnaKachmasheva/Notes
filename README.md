@@ -6,7 +6,7 @@ Zjednodušení vedení osobních poznámek.
 
 ## Popis funkčnosti
 
-Web se skládá ze 3 stránek.
+Web se skládá ze 3 stránek. Pokud je zadána naplatná adresa, zobrazí se ErrorPage.
 1) Hlavní stranka
 
     Na této stránce má uživatel následující možnosti:
