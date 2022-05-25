@@ -15,6 +15,7 @@ import {
 } from "react-icons/bs";
 import NavPart from "../parts/NavPart";
 import SidePanelPart from "../parts/SidePanelPart";
+import Footer from "../parts/FooterPart";
 
 function CalendarPage() {
 
@@ -145,6 +146,7 @@ function CalendarPage() {
                     </table>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

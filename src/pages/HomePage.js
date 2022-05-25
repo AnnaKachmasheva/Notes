@@ -3,15 +3,16 @@ import NavPart from "../parts/NavPart";
 import video from "../resourses/video.mp4";
 import calendar from "../resourses/calendar.png";
 import statistics from "../resourses/statistics.png";
+import Footer from "../parts/FooterPart";
 
 
 function HomePage() {
     return (
-        <div className="main-container">
+        <div className="home-container">
 
             <NavPart/>
 
-            <div>
+            <div className="video-container">
                 <h1>Psaní poznámek je nyní jednodušší než kdy jindy</h1>
 
                 <video controls>
@@ -33,6 +34,8 @@ function HomePage() {
                     backgroundRepeat: 'no-repeat'}}>
                 </div>
             </div>
+
+            <Footer/>
 
         </div>
     )

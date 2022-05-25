@@ -8,7 +8,10 @@ const ModalConfirm = (props) => {
         return null;
 
     function remove(key, noteToRemove) {
-        removeNote(key, noteToRemove);
+        if (props.type === "removeOne")
+            removeNote(key, noteToRemove);
+        else
+            localStorage.clear();
         props.onClose();
     }
 
@@ -22,7 +25,7 @@ const ModalConfirm = (props) => {
 
                         <div className="modal-confirm-header">
                             <p>{props.type === "removeOne" ?
-                                "Opravdu chcete poznámku smazat??" :
+                                "Opravdu chcete poznámku smazat?" :
                                 "Opravdu chcete smazat všechny poznámky?"}</p>
                         </div>
 

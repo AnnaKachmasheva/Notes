@@ -58,16 +58,20 @@ export function convertStringNotes(itemsString) {
 
 /* When deleting a note from the local storage, a page reload is provided to receive updated data */
 export function removeNote(key, noteToRemove) {
-    let notes = localStorage.getItem(key).split(';');
+    let notes = localStorage.getItem(key);
+    if (notes === null)
+        return;
+
+    let notesStr = notes.split(';');
     let note = JSON.stringify(noteToRemove, null, 2);
 
-    for (let i = 0; i < notes.length; i++) {
-        if (notes[i] === note)
-            notes.splice(i, 1);
+    for (let i = 0; i < notesStr.length; i++) {
+        if (notesStr[i] === note)
+            notesStr.splice(i, 1);
     }
 
     window.location.reload();
-    localStorage.setItem(key, notes.join(";"));
+    localStorage.setItem(key, notesStr.join(";"));
 }
 
 export const allKeys = Object.keys(localStorage).sort();

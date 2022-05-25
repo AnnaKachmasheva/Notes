@@ -8,6 +8,7 @@ import {
     getCountYearNotes
 } from "../helper/Helper";
 import NavPart from "../parts/NavPart";
+import Footer from "../parts/FooterPart";
 
 function StatisticsPage() {
 
@@ -45,6 +46,7 @@ function StatisticsPage() {
                 <ChartComponent className="item-current-year-diagram"/>
 
             </div>
+            <Footer/>
         </div>
     )
 }

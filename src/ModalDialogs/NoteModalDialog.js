@@ -44,7 +44,7 @@ const NoteModalDialog = (props) => {
                  onClick={(e) => e.stopPropagation()}>
 
                 <div className="modal-header">
-                    <p>Note</p>
+                    <p>Poznámka</p>
                     <BsXLg className="icon-close-window"
                            onClick={props.onClose}/>
                 </div>

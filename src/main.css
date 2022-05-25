@@ -8,15 +8,19 @@
     color: rgb(28, 28, 28);
 }
 
-.main-container>div{
+.main-container > div, .home-container > div{
     display: grid;
     grid-template-rows: auto auto auto;
     margin-top: 60px;
     border-top: 1px solid rgba(154, 154, 225, 0.26);
-
-    height: 1000px;
 }
-.main-container>div:last-child {
+
+.video-container {
+    display: grid;
+    gap: 40px;
+}
+
+.home-container > div:last-child {
     display: grid;
     grid-template-rows: auto auto;
 }
@@ -24,11 +28,12 @@
 .main-info {
     display: block;
     background: rgba(154, 154, 225, 0.24);
+    height: 1000px;
 }
 
 .main-info div {
     margin: 30px auto;
-    height: 100%;
+    height: 450px;
     width: 50%;
     border-radius: 30px;
     border: 1px solid rgba(154, 154, 225, 0.26);
@@ -79,6 +84,7 @@ video {
 .container {
     display: grid;
     grid-template-columns: auto 80%;
+    grid-template-rows: 100% 0 0;
 
     width: 100%;
     margin: 10px;
@@ -338,6 +344,22 @@ button:hover {
     display: none;
 }
 
+/*      footer      */
+footer {
+    display: grid;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(154, 154, 225, 0.5);
+    justify-content: center;
+    justify-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #34175d;
+}
+
+
 /*      modal-dialogs      */
 .close-modal,
 .confirm-button-yes {
@@ -461,7 +483,11 @@ button > span {
     width: 30vw;
 
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr;
+}
+
+.modal-confirm-content>p{
+    margin-top: 20px;
 }
 
 .modal-confirm-container {
@@ -491,8 +517,6 @@ button > span {
     width: 100%;
 
     display: grid;
-    grid-template-columns: 49% 49%;
-    column-gap: 2%;
 }
 
 .modal-confirm-buttons button {
@@ -503,7 +527,6 @@ button > span {
 }
 
 .confirm-button-no {
-    height: 70px;
     cursor: pointer;
 
     border: 5px double #9a9ae1;
@@ -801,9 +824,8 @@ article p:first-child {
     font-size: 14px;
 }
 
-.button-clear
+.button-clear,
 .confirm-button-no {
-    min-width: 140px;
     max-height: 60px;
     float: right;
     margin-top: 20px;
@@ -811,6 +833,10 @@ article p:first-child {
     color: #34175d;
 
     vertical-align: center;
+}
+
+.confirm-button-yes {
+    max-height: 60px;
 }
 
 
@@ -1141,6 +1167,10 @@ h1 {
     .menu-max button {
         width: 16vw;
     }
+
+    .modal-confirm-buttons button {
+        width: 100%;
+    }
 }
 
 @media (min-width: 425px) and (max-width: 1024px) {
@@ -1217,10 +1247,22 @@ h1 {
     }
 
     .content,
-    .modal-confirm-content {
-        width: 90%;
+    .modal-confirm-content,
+    .window,
+    .modal-note-content{
+        width: 90vw;
+        min-height: 400px;
     }
 
+    .modal-note-content  button {
+        width: 76vw;
+        height: 90%;
+    }
+
+    .modal-note-content div {
+        height: 65%;
+        width: 65vw;
+    }
     .form-new-note {
         flex-direction: column;
         overflow: auto;
