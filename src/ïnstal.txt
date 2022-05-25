@@ -1,0 +1,17 @@
+
+<-----icons---->
+npm install react-icons
+
+
+<-----for start app---->
+cd reactapp
+npm install
+npm start
+
+<-----for form---->
+npm install formik --save
+
+npm i -D react-router-dom
+
+npm install react-chartjs-2 chart.jsx --save
+
