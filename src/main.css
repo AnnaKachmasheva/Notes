@@ -93,7 +93,7 @@ video {
 /*       error 404    */
 .error-container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 
     text-align: center;
     margin-top: 30vh;

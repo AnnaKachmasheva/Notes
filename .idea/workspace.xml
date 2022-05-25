@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97246d88-3168-4e6e-a78d-83e2a0fa8fd0" name="Changes" comment="added file to heroku deploy">
+    <list default="true" id="97246d88-3168-4e6e-a78d-83e2a0fa8fd0" name="Changes" comment="updated video, fixed css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModalDialogs/ConfirmModalDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModalDialogs/ConfirmModalDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModalDialogs/NoteModalDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModalDialogs/NoteModalDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/Helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/Helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CalendarPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CalendarPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFoundPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/StatisticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StatisticsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resourses/video.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
       <workItem from="1653310797431" duration="6157000" />
       <workItem from="1653380648193" duration="36839000" />
       <workItem from="1653457599834" duration="1043000" />
-      <workItem from="1653468242252" duration="9420000" />
+      <workItem from="1653468242252" duration="10698000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1653459342509</created>
@@ -99,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653473919033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated video, fixed css">
+      <created>1653480098144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653480098144</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +118,7 @@
     <MESSAGE value="com" />
     <MESSAGE value="version 3.0" />
     <MESSAGE value="added file to heroku deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="added file to heroku deploy" />
+    <MESSAGE value="updated video, fixed css" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated video, fixed css" />
   </component>
 </project>
